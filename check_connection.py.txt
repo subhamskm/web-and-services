@@ -1,0 +1,7 @@
+import subprocess
+try:
+    var=subprocess.check_call(['ping','www.google.com'],shell=True)
+except gi:
+    print ("internet is off")
+else:
+    print("internet is on")
